@@ -1,0 +1,31 @@
+manual testing functionality:
+1. mkdir test_dir1
+2. ls
+3. cd test_dir1
+4. cont create test_cont1
+5. ps
+6. ls
+7. cont start test_cont1 pwd(should fail)
+8. cd test_cont1
+9. cont start test_cont1 pwd
+10. mkdir test_dir2
+11. cd test_dir2
+12. pwd(check current working directory)
+13. ps(check status)
+14. cd ../..(should fail)
+15. complex directory access: pwd & cd .././././test_dir2/././../test_dir2/./. & pwd
+should success, and relative path should be /test_dir2
+16. cont pause test_cont1
+17. cont start test_cont1 pwd(should fail)
+18. cont create test_cont1(should fail, and no test_cont1 created at cwd)
+19. cont resume test_cont1
+20. ps
+21. cont create test_cont2
+22. ls & pwd
+23. cd test_cont2
+24. cont start test_cont2 ps
+25. cont stop test_cont1
+26. cont stop test_cont2
+27. pwd & ps
+28. test absolute path: cd /bin/./././../../../../bin
+29. pwd(check it should be /bin)

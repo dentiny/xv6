@@ -1,2 +1,3 @@
 # xv6
-This repo is for Duke COMSCI510 Advanced Operating System.
+
+This repo is created for Duke CS510 final proj, adapted from xv6.
