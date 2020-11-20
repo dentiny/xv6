@@ -8,6 +8,9 @@
 ### Report
 The [report](https://github.com/dentiny/xv6/blob/main/report.pdf) illustrates the motivation, design, implementation and result of this project.
 
+### Video
+This [video](https://warpwire.duke.edu/w/kdsEAA/) shows how to interact with updated xv6.
+
 ### Declaration of revision on xv6 source code
 Our changes on xv6 source code are mainly on following files:
 - mkfs.c: add `bin` directory and put all user programs into during OS initialization
