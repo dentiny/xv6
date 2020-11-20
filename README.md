@@ -4,6 +4,7 @@
 - Dockerfile contained in this repo should be enough to get experiment environment
 - `make qemu-nox` may compile and start the xv6 OS
 - `make clean` will delete executables and generated OS image
+- `ctrl-A-x` to exit the OS
 
 ### Report
 The [report](https://github.com/dentiny/xv6/blob/main/report.pdf) illustrates the motivation, design, implementation and result of this project.
