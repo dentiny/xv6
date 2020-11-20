@@ -5,6 +5,9 @@
 - `make qemu-nox` may compile and start the xv6 OS
 - `make clean` will delete executables and generated OS image
 
+### Report
+The [report](https://github.com/dentiny/xv6/blob/main/report.pdf) illustrates the motivation, design, implementation and result of this project.
+
 ### Declaration of revision on xv6 source code
 Our changes on xv6 source code are mainly on following files:
 - mkfs.c: add `bin` directory and put all user programs into during OS initialization
